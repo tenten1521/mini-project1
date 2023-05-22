@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#barnav {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+}
+#navbarNav {
+  font-weight: bold;
+}
+.container2 {
+  width: 100%;
+  height: 100%;
+}
+
+#slogan1 {
+  margin-top: 100px;
+}
+
+.banner {
+  background-image: url(img/bg1.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  width: 100%;
+}
+
+.containers {
+  font-size: 100;
+  padding-top: 100px;
+}
+
+#trike {
+  transform: scaleX(1);
+
+  mix-blend-mode: multiply;
+  width: 500px;
+}
+
+/* mobile styles */
+@media only screen and (max-width: 668px) {
+  .containers {
+    font-size: 100%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .text-highlight {
+    color: rgb(79, 77, 255);
+  }
+  .b1 {
+    font-size: 30px;
+  }
+  /* desktop styles */
+  @media only screen and (min-width: 668px) {
+    .containers .text {
+      position: relative;
+      font-size: 40px;
+      font-weight: 500;
+    }
+  }
+}
+.cellbg {
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: visible;
+  background-position: fixed;
+  transform: scaleX(1);
+}
+
+.service_section {
+  position: relative;
+}
+
+.service_section .heading_container p {
+  color: #7a7a7a;
+}
+
+.service_section .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 55px;
+  border-radius: 5px;
+  background-color: #1f4172;
+  padding: 65px 0 45px 0;
+}
+
+.service_section .box .img-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 120px;
+  min-width: 120px;
+  height: 120px;
+  padding: 10px;
+  margin-bottom: 45px;
+  position: relative;
+}
+
+.service_section .box .img-box img {
+  max-width: 65px;
+  max-height: 65px;
+  position: relative;
+  z-index: 3;
+}
+
+.service_section .box .img-box::before,
+.service_section .box .img-box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  z-index: 2;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.service_section .box .img-box::before {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.service_section .box .img-box::after {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.service_section .box .detail-box {
+  padding: 0 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.service_section .box .detail-box h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.service_section .box .detail-box a {
+  color: #10c695;
+  font-weight: 600;
+}
+
+.service_section .box .detail-box a i {
+  margin-left: 5px;
+}
+
+.service_section .box .detail-box a:hover {
+  color: #fcfcfc;
+}
+
+.service_section .box:hover .img-box::before {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.service_section .btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.service_section .btn-box a {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #10c695;
+  color: #ffffff;
+  border-radius: 0px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid #10c695;
+}
+
+.service_section .btn-box a:hover {
+  background-color: transparent;
+  color: #10c695;
+}
+
+.call_section {
+  background-image: url(img/banner2.jpg);
+  color: #ffffff;
+  padding: 65px 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.call_section .row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.call_section .img-box {
+  position: relative;
+}
+
+.call_section .img-box img {
+  width: 100%;
+  border-radius: 100%;
+  position: relative;
+  border: 10px solid #27518e;
+}
+
+.call_section .detail-box h3 {
+  color: #fdfffe;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.call_section .detail-box a {
+  display: inline-block;
+  padding: 10px 45px;
+  background-color: #1f4172;
+  color: #ffffff;
+  border-radius: 0px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid #1f4172;
+  margin-top: 15px;
+}

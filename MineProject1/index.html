@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="img/trikelogo.gif" />
+
+    <title>ARKILA</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
+        <a href="index.html" class="navbar-brand mb-0" id="barnav">
+          <img
+            class="d-inline-block"
+            src="img/trikelogo.gif"
+            width="100"
+            height="70"
+          />ARKILA</a
+        >
+        <button
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          class="navbar-toggler"
+          aria-control="navbarNav"
+          aria-expanded="false"
+          aria-label="toggle navigation"
+          style="color: black"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-iten active">
+              <a href="" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                href="#"
+                role="button"
+                aria-expanded="false"
+                >Products</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="arkilafoods.html"
+                    >Arkila Food</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="arkilasasakyan.html"
+                    >Arkila Vehicle</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="#">Arkila Padala</a></li>
+                <li>
+                  <a class="dropdown-item" href="arkila-rides.html"
+                    >Arkila Rides</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="moving_service.html"
+                    >Arkila Hakot</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="delivery.html"
+                    >Become Arkila Rider</a
+                  >
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">Become Arkila Merchant</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-iten">
+              <a href="#about12" class="nav-link">About</a>
+            </li>
+            <li class="nav-iten">
+              <a href="#Contactus" class="nav-link">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+        <button
+          type="submit"
+          class="btn btn-primary btn-lg"
+          style="border: 1px solid rgba(0, 0, 0, 0.548); margin-right: 20px"
+        >
+          Register Now
+        </button>
+      </nav>
+    </div>
+    <div class="banner">
+      <div class="containers">
+        <div class="row gx-5">
+          <div class="col-md-6 me-3 mt-5" id="slogan1">
+            <div style="text-align: center">
+              <span class="text first-text">Get to</span>
+              <span class="text sec-text">meeting</span>
+            </div>
+            <script>
+              const text = document.querySelector(".sec-text");
+
+              const textload = () => {
+                setTimeout(() => {
+                  text.textContent = "meeting";
+                }, 0);
+                setTimeout(() => {
+                  text.textContent = "Work";
+                }, 4000);
+                setTimeout(() => {
+                  text.textContent = "school";
+                }, 8000); //1s = 1000 miliseconds
+              };
+
+              textload();
+              setInterval(textload, 12000);
+            </script>
+            <p id="p1">
+              ARKILA is a feature-packed riding website that not only provides
+              reliable transportation services but also offers a convenient
+              platform for shopping, food delivery, and lipat bahay (moving)
+              services.
+            </p>
+            <div class="text-center">
+              <a href="arkila-rides.html">
+                <button
+                  type="submit"
+                  class="btn btn-primary"
+                  style="border: 1px solid rgba(0, 0, 0, 0.548)"
+                >
+                  BOOK NOW!
+                </button></a
+              >
+            </div>
+            <div>
+              <ul style="text-align: center" class="mt-5">
+                <a href="#"
+                  ><img
+                    id="logo1"
+                    src="img/googleplay1.png"
+                    alt="google"
+                    width="150px"
+                /></a>
+                <a href="#"
+                  ><img
+                    id="logo1"
+                    src="img/apple_store.png"
+                    alt="apple"
+                    width="150px"
+                /></a>
+                <a href="#"
+                  ><img
+                    id="logo1"
+                    src="img/huawei.png"
+                    alt="huewai"
+                    width="150px"
+                /></a>
+              </ul>
+            </div>
+          </div>
+
+          <div
+            class="col-md-2 col-lg-4 col-md-3 col-sm-6 col-xs-12 d-xs d-none d-sm-block"
+          >
+            <div><img src="img/trikelogo.gif" alt="trike" id="trike" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <br />
+      <br />
+    </div>
+    <div class="container mt-5 pt-5">
+      <div class="row">
+        <div id="service">OUR SERVICE</div>
+      </div>
+    </div>
+
+    <div>
+      <div class="row">
+        <div class="col-sm-6" id="b1">
+          <img src="img/special.png" width="250px" />
+          <p class="b1">Passenger</p>
+          <p style="font-size: 20px">
+            Book a Tricycle to get to your destination
+          </p>
+        </div>
+        <div class="col-sm-6" id="b2">
+          <img src="img/food-delivery.jpg" width="225px" />
+          <p class="b1">Food Delivery</p>
+          <p style="font-size: 20px">
+            Deliciously Delivered. Bringing Flavors to Your Doorstep!
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6" id="b3">
+          <img src="img/shopping_bag.png" width="255px" />
+          <p class="b1">Arkila Mall</p>
+          <p style="font-size: 20px">
+            Your One-Stop Online Shopping Destination!
+          </p>
+        </div>
+        <div class="col-sm-6" id="b4">
+          <img src="img/hakot.png" width="200px" />
+          <p class="b1">Arkila Hakot</p>
+          <p style="font-size: 20px">
+            Swift, Safe, and Seamless, Delivering Convenience to Your Doorstep!
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr style="opacity: 0" />
+    <hr style="opacity: 0" />
+    <hr style="opacity: 0" />
+    <hr style="opacity: 0" />
+
+    <section class="drivers" style="background-image: url(img/bg.png)">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6" data-aos="fade-left">
+            <img
+              class="img-fluid"
+              id="img-driver"
+              src="img/banner0-img.png"
+              alt="banner-img"
+            />
+          </div>
+          <div class="col-md-6" id="textdriver">
+            <h1 class="mb-3" id="textdriver1">Professional Drivers</h1>
+            <p class="mb-4" id="textdriver2">
+              All Drivers go through stringent background checks, safety
+              training, COVID-19 preparedness training, and skills assessments.
+              Vehicles are quality-checked to ensure passenger safety.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/carousel/slider1.png" class="d-block w-100" alt="..." />
+          <div class="carousel-caption col text-dark">
+            <p class="titlemes1" style="font-weight: bold">
+              With a 500+ Shops Available
+            </p>
+            <p class="messages1">
+              Arkilla now has up to 500 shops that`s 100% legit and best to
+              cater your every needs. from ready-to-eat nutritional foods,
+              skincare, beauty, to the newst appliances you want added to your
+              home entertainment
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item col text-dark">
+          <img
+            src="img/carousel/slider-2.png"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption text-dark">
+            <p class="titlemes1" style="font-weight: bold">
+              Over 1 Million User
+            </p>
+            <p class="messages1">
+              While Arkila is offering hassle-free and fast delivery service
+              nationwide, it also reached a milestone in just a span of 8
+              months!
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item col">
+          <img
+            src="img/carousel/slider-3.png"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption text-dark">
+            <p class="titlemes1" style="font-weight: bold">
+              Over 5,000+ Riders
+            </p>
+            <p class="messages1">
+              Arkila provides ooportunities for every Filipino who requires
+              addtional revenue to get by on a daily basis.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <h1 style="text-align: center; font-size: 35px" class="mt-5 pt-5">
+      Join us, In Arkila Family
+    </h1>
+    <p style="text-align: center; font-size: 20px">
+      As we continue to make our services more accessible to all, we want to see
+      fresh faces to join our growing family.
+    </p>
+    <section class="container mt-5">
+      <div class="center-align1">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="img/store1.png" class="card-img-top" alt="store" />
+              <div class="card-body">
+                <h5 class="card-title">Be a merchant of Arikila</h5>
+                <p class="card-text">
+                  Kung gusto mong maging sagot sa mga cravings, sign-up as a
+                  merchant
+                </p>
+
+                <a href="delivery.html">
+                  <button type="button" class="btn btn-primary btn-sm">
+                    Apply na!
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/shoppingmall.png" class="card-img-top" alt="mall" />
+              <div class="card-body">
+                <h5 class="card-title">Be a merchant of Arkilamall</h5>
+                <p class="card-text">
+                  Kung gusto mong safe ang shoppers at customer mo halika na, be
+                  our merchant
+                </p>
+                <a href="delivery.html">
+                  <button type="button" class="btn btn-primary btn-sm">
+                    Apply na!
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="img/sample.gif"
+                class="card-img-top"
+                alt="motorbiker"
+                height="300px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Be a Arkila Driver</h5>
+                <p class="card-text">
+                  Kung ikaw ay marunong mag-motor at nais matutong kumita sa
+                  pagiging isang POGING Arkila driver..
+                </p>
+                <a href="delivery.html">
+                  <button type="button" class="btn btn-primary btn-sm">
+                    Apply na!
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="img/cardriver.jpg"
+                class="card-img-top"
+                alt="car driver"
+                height="300px"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Be a Arki driver</h5>
+                <p class="card-text">
+                  Kung ikaw ay marunong mag-drive ng kotse at nais mong maghatid
+                  sundo habang kumikita, ang pagiging poging Arkila driver ay
+                  para sayo
+                </p>
+                <a href="delivery.html">
+                  <button type="button" class="btn btn-primary btn-sm">
+                    Apply na!
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="clear">
+      <section>
+        <div class="container mt-5">
+          <div class="about1">
+            <h1 id="about2">Whats new About Arkila</h1>
+            <p id="about3">
+              Our stories, latest updates, and exclusive promos. Find anything
+              you want to know about us.
+            </p>
+          </div>
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="false"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="rounded carousel-item active">
+                <img
+                  src="img/new_akila1.png"
+                  class="d-block w-100"
+                  alt="akila expanding"
+                />
+                <div class="carousel-caption d-none d-md-block"></div>
+              </div>
+              <div class="rounded carousel-item">
+                <img
+                  src="img/new_arkila2.png"
+                  class="d-block w-100"
+                  alt="partners"
+                />
+                <div
+                  class="carousel-caption d-none d-md-block"
+                  id="color-text"
+                ></div>
+              </div>
+              <div class="rounded carousel-item">
+                <img
+                  src="img/new_arkila3.png"
+                  class="d-block w-100"
+                  alt="thanks"
+                  id="color-text"
+                />
+                <div class="carousel-caption d-none d-md-block"></div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section>
+      <div class="container">
+        <div class="row mt-5 bg-info text-light" id="owner22">
+          <div class="col-sm-6">
+            <p id="about12">About US</p>
+            <div id="about13">
+              <p>
+                Arkila is a Filipino-made app for safe, hassle-free deliveries
+                and ordering your needs online without the need to go out.
+              </p>
+
+              <p>
+                The company was established in the middle of the COVID-19
+                pandemic and served as a source of income to Filipinos who lost
+                their jobs.
+              </p>
+
+              <p>
+                Arkila was intentionally made to connect people through an extra
+                hand in delivering items door-to-door.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6 rounded">
+            <img src="img/owner.jpg" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="b-example-divider"></div>
+
+    <section>
+      <footer
+        class="mt-5"
+        id="foooter1"
+        style="margin-top: 50px; background-color: rgb(214, 214, 214)"
+      >
+        <div class="container pt-5">
+          <div class="row">
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div>
+                <h3>ARKILA</h3>
+                <p class="mb-30 footer-desc">
+                  is a feature-packed riding website that not only provides
+                  reliable transportation services but also offers a convenient
+                  platform for shopping, food delivery, and lipat bahay (moving)
+                  services.
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-2 offset-xl-1 col-lg-2 col-md-6">
+              <div class="">
+                <h4>Quick Link</h4>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="index.html" class="text-decoration-none">Home</a>
+                  </li>
+                  <li>
+                    <a href="#about12" class="text-decoration-none">About Us</a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none">Service</a>
+                  </li>
+                  <li>
+                    <a href="#Contactus" class="text-decoration-none"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6">
+              <div>
+                <h4 id="Contactus">Contact Us</h4>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#" class="text-decoration-none"
+                      >+63 912 345 6789</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none"
+                      >+63 912 345 6789</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none"
+                      >Arkilakana@gmail.com</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none"
+                      >Arkilahelpdesk@gmail.com</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6">
+              <div>
+                <h4>Newsletter</h4>
+                <div>
+                  <label for="Newsletter" class="form-label"
+                    >Subscribe To Our Newsletter</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter Your Email"
+                  />
+                  <button class="btn btn-info mt-3">Subscribe</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center">
+            <div class="copyright">
+              <a href="https://www.facebook.com/justenaraneta"
+                ><img
+                  src="img/socia/facebook.png"
+                  alt="fb"
+                  width="40px"
+                  height="40px"
+                  style="margin-left: 8px"
+              /></a>
+              <img
+                src="img/socia/twitter_logo.png"
+                alt="twitter_logo"
+                width="40px"
+                height="40px"
+                style="margin-left: 8px"
+              />
+              <img
+                src="img/socia/instala.png"
+                alt="insta"
+                width="40px"
+                height="40px"
+                style="margin-left: 8px"
+              />
+              <img
+                src="img/socia/pintreset.png"
+                alt="pintreset"
+                width="40px"
+                height="40px"
+                style="margin-left: 8px"
+              />
+              <img
+                src="img/socia/linked.png"
+                alt="linked"
+                width="40px"
+                height="40px"
+              />
+              <img
+                src="img/socia/Youtube_logo.png"
+                alt="Youtube_logo"
+                width="40px"
+                height="40px"
+                style="margin-left: 8px"
+              />
+              <p>
+                Developed and maintained by
+                <a href="https://www.facebook.com/justenaraneta" target="_blank"
+                  >Justen araneta</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

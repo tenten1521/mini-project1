@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Arkilafood</title>
+    <meta name="title" content="Arkila Food" />
+    <meta name="description" content="fastfood delivery" <!-- - favicon -- />
+    <link rel="shortcut icon" href="img/trikelogo.gif" type="image-icon" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="arkilafoods.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="loading-container" data-loading-container>
+      <div class="loading-circle"></div>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img
+            src="img/sample/logo.png"
+            width="200"
+            height="150px"
+            alt="Arkilafood"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button
+            class="nav-close-btn"
+            aria-label="close menu"
+            data-nav-toggler
+          >
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="index.html#about12" class="navbar-link" data-nav-link
+                >About Us</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link" data-nav-link>Restaurants</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link" data-nav-link>Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-action">
+          <button class="cart-btn" aria-label="cart">
+            <ion-icon name="bag" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="#" class="btn btn-primary has-after">Order Now</a>
+        </div>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="overlay" data-overlay data-nav-toggler></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section
+          class="section hero has-bg-image"
+          aria-label="home"
+          style="background-image: url(img/sample/hero-bg.png)"
+        >
+          <div class="container">
+            <div class="hero-content" data-reveal="left">
+              <h1 class="h1 hero-title">
+                Arkila Bring the best Restaurant in your Home
+              </h1>
+
+              <p class="hero-text">
+                The best online food delivery website you will encounter.
+              </p>
+
+              <a href="#" class="btn btn-secondary has-after">Order Now</a>
+            </div>
+
+            <figure class="hero-banner" data-reveal>
+              <img
+                src="img/food-delivery.png"
+                width="680"
+                height="720"
+                alt="hero banner"
+                class="w-100"
+              />
+
+              <img
+                src="img/sample/hero-shape-1.svg"
+                width="338"
+                height="138"
+                alt="shape"
+                class="shape shape-1"
+              />
+
+              <img
+                src="img/sample/hero-shape-1.png"
+                width="237"
+                height="80"
+                alt="shape"
+                class="shape shape-2"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!-- 
+        - #INSTRUCTION
+      -->
+
+        <section class="section instruction" aria-labelledby="">
+          <div class="container">
+            <h2 class="h2 section-title" id="instruction-label" data-reveal>
+              How It Works
+            </h2>
+
+            <p class="section-text" data-reveal></p>
+
+            <ul class="grid-list">
+              <li data-reveal="left">
+                <div class="instruction-card">
+                  <figure class="card-banner">
+                    <img
+                      src="img/sample/instructuion-1.png"
+                      width="300"
+                      height="154"
+                      loading="lazy"
+                      alt="Select Restaurant"
+                      class="w-100"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h5 card-title">
+                      <span class="span">01</span>
+                      Select Restaurant
+                    </h3>
+
+                    <p class="card-text">
+                      Search and choose a restaurant based on location, cuisine,
+                      and reviews. Check availability and make a reservation by
+                      providing your details. Receive confirmation of your
+                      reservation
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li data-reveal>
+                <div class="instruction-card">
+                  <figure class="card-banner">
+                    <img
+                      src="img/sample/instructuion-2.png"
+                      width="300"
+                      height="154"
+                      loading="lazy"
+                      alt="Select menu"
+                      class="w-100"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h5 card-title">
+                      <span class="span">02</span>
+                      Select menu
+                    </h3>
+
+                    <p class="card-text">
+                      Explore the restaurant's menu online or through food
+                      delivery apps. Review the available dishes and their
+                      descriptions. Choose the items you want to order.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li data-reveal="right">
+                <div class="instruction-card">
+                  <figure class="card-banner">
+                    <img
+                      src="img/sample/instructuion-3.png"
+                      width="300"
+                      height="154"
+                      loading="lazy"
+                      alt="Wait for delivery"
+                      class="w-100"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h5 card-title">
+                      <span class="span">03</span>
+                      Wait for delivery
+                    </h3>
+
+                    <p class="card-text">
+                      Explore the restaurant's menu online or through food
+                      delivery apps. Review the available dishes and their
+                      descriptions. Choose the items you want to order.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #TOP RESTAURANT
+      -->
+
+        <section
+          class="section top-restaurant"
+          aria-labelledby="top-restaurent-label"
+        >
+          <div class="container">
+            <ul class="grid-list">
+              <li data-reveal="left">
+                <h2 class="h2 section-title" id="top-restaurent-label">
+                  The Best Restaurants in Your City
+                </h2>
+
+                <p class="section-text">
+                  Cuisine and Preferences: Consider your culinary preferences.
+                  If you have a specific cuisine in mind, search for restaurants
+                  that specialize in that type of food. Additionally, take into
+                  account factors such as dietary restrictions, ambiance, and
+                  price range.
+                </p>
+              </li>
+
+              <li data-reveal="right">
+                <div class="restaurant-card">
+                  <div class="card-icon">
+                    <img
+                      src="img/fastfood/jollibee.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="jollibee"
+                      class="w-100"
+                    />
+                  </div>
+
+                  <h3 class="h5 card-title">Jollibee</h3>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="card-meta-wrapper">
+                    <a href="#" class="card-meta">Filipino</a>
+                    <a href="#" class="card-meta">chickenhouse</a>
+                  </div>
+
+                  <p class="card-text">
+                    Jollibee Philippine. The number one fastfood chain in the
+                    Philippine is Jollibee. The official tagline of Jollibee is
+                    the Tagalog phrase "Langhap Sarap!", which literally means
+                    "delicious aroma".
+                  </p>
+                </div>
+              </li>
+
+              <li data-reveal="left">
+                <div class="restaurant-card">
+                  <div class="card-icon">
+                    <img
+                      src="img/fastfood/Yellow_Cab_Pizza_Logo.svg.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="yellow cab"
+                      class="w-100"
+                    />
+                  </div>
+
+                  <h3 class="h5 card-title">Yello Cab</h3>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="card-meta-wrapper">
+                    <a href="#" class="card-meta">Pizza</a>
+                    <a href="#" class="card-meta">steakhouse</a>
+                  </div>
+
+                  <p class="card-text">
+                    Are you ready to fuel the hungry? If yes, then you might be
+                    up for a Yellow Cab franchise. The company's tagline, “We
+                    Fuel The Hungry,” is a testament to its commitment,
+                    innovation, and drive to serve only the tastiest New
+                    York-style pizzas, pasta, and chicken for every hungry
+                    Filipino
+                  </p>
+                </div>
+              </li>
+
+              <li data-reveal="right">
+                <div class="restaurant-card">
+                  <div class="card-icon">
+                    <img
+                      src="img/fastfood/burgerking.png"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Kings"
+                      class="w-100"
+                    />
+                  </div>
+
+                  <h3 class="h5 card-title">Burger King</h3>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star-outline" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="card-meta-wrapper">
+                    <a href="#" class="card-meta">american</a>
+                    <a href="#" class="card-meta">Steakhouse</a>
+                  </div>
+
+                  <p class="card-text">
+                    Have it your way, have it your way! Have it your way at
+                    Burger King!
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <a href="#" class="btn btn-secondary has-after">
+              <span class="span">See All</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+        </section>
+
+        <!-- 
+        - #CTA
+      -->
+
+        <section
+          class="section cta has-bg-image"
+          aria-labelledby="cta-label"
+          style="background-image: url('img/sample/hero-bg.png')"
+        >
+          <div class="container">
+            <figure class="cta-banner" data-reveal="left">
+              <img
+                src="img/sample/family-table.jpg"
+                width="680"
+                height="704"
+                loading="lazy"
+                alt="cta banner"
+                class="w-100"
+              />
+            </figure>
+
+            <div class="cta-content" data-reveal="right">
+              <h2 class="h3 section-title" id="cta-label">
+                Food from your favorite restaurants to your table
+              </h2>
+
+              <p class="section-text">
+                Kamayan is a communal-style buffet of delicious Filipino food:
+                it features seafood, grilled meats, vegetables and garlic rice
+                served on fresh banana leaves.
+              </p>
+
+              <a href="#" class="btn btn-primary has-after">Order Now</a>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #STATS
+      -->
+
+        <section class="stats" aria-label="statistics" data-reveal>
+          <div class="container">
+            <ul class="grid-list">
+              <li>
+                <h2 class="h3 section-title">Service shows good taste.</h2>
+              </li>
+
+              <li class="stats-item">
+                <span class="span">976</span>
+
+                <p class="stats-text">
+                  Satisfied <br />
+                  Customer
+                </p>
+              </li>
+
+              <li class="stats-item">
+                <span class="span">Best</span>
+
+                <p class="stats-text">
+                  <br />
+                  Restaurants
+                </p>
+              </li>
+
+              <li class="stats-item">
+                <span class="span">1K+</span>
+
+                <p class="stats-text">
+                  Food <br />
+                  Delivered
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #TESTIMONIALS
+      -->
+
+        <section class="section testi" aria-labelledby="testi-label">
+          <div class="container">
+            <div class="testi-content" data-reveal="left">
+              <h2 class="h2 section-title" id="testi-label">
+                What customers say about us
+              </h2>
+
+              <blockquote class="testi-text">
+                fabulous fantastic and everythins i had imagined. the food was
+                phenomenal and reasonably priced. kevin our server was on point.
+                He knw the menu and made suggestion for food and drink pairing.
+              </blockquote>
+
+              <div class="wrapper">
+                <img
+                  src="img/sample/avatar.webp"
+                  width="70"
+                  height="70"
+                  loading="lazy"
+                  alt="Thomas Adamson"
+                  class="author-img"
+                />
+
+                <div>
+                  <p class="author-title">Thomas Adamson</p>
+
+                  <div class="rating-wrapper">
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <figure class="testi-banner" data-reveal="right">
+              <img
+                src="img/sample/review.webp"
+                width="680"
+                height="588"
+                alt="testimonial banner"
+                class="w-100"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!-- 
+        - #PARTNERSHIP
+      -->
+
+        <section class="section partnership" aria-label="partnership">
+          <div class="container">
+            <h2 class="h2 section-title" data-reveal>
+              Want to Join Partnership?
+            </h2>
+
+            <ul class="grid-list">
+              <li data-reveal="left">
+                <div class="partnership-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 640; --height: 402"
+                  >
+                    <img
+                      src="img/sample/fooddelivery.webp"
+                      width="640"
+                      height="402"
+                      loading="lazy"
+                      alt="Join Courier"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h5 card-title">Join Courier</h3>
+
+                    <a href="#" class="btn btn-primary has-after">
+                      <span class="span">Learn More</span>
+
+                      <ion-icon
+                        name="arrow-forward"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <li data-reveal="right">
+                <div class="partnership-card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 640; --height: 402"
+                  >
+                    <img
+                      src="img/sample/resturant.webp"
+                      width="640"
+                      height="402"
+                      loading="lazy"
+                      alt="Join Merchant"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h5 card-title">Join Merchant</h3>
+
+                    <a href="#" class="btn btn-primary has-after">
+                      <span class="span">Learn More</span>
+
+                      <ion-icon
+                        name="arrow-forward"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #NEWSLETTER
+      -->
+
+        <section class="section newsletter" aria-label="newsletter">
+          <div class="container">
+            <figure class="newsletter-banner" data-reveal="left">
+              <img
+                src="img/food-delivery.jpg"
+                width="680"
+                height="405"
+                loading="lazy"
+                alt="Illustration"
+                class="w-100"
+              />
+            </figure>
+
+            <div class="newsletter-content" data-reveal="right">
+              <h2 class="h4 section-title">
+                Get the menu of your favorite restaurants every day
+              </h2>
+
+              <div class="input-wrapper">
+                <input
+                  type="email"
+                  name="email_address"
+                  placeholder="Enter email address"
+                  required
+                  class="input-field"
+                />
+
+                <button type="submit" class="btn btn-primary has-after">
+                  <ion-icon
+                    name="notifications-outline"
+                    aria-hidden="true"
+                  ></ion-icon>
+
+                  <span class="span">Subscribe</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer
+      class="mt-5"
+      id="foooter1"
+      style="margin-top: 50px; background-color: rgb(214, 214, 214)"
+    >
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col">
+            <div>
+              <h3>ARKILA</h3>
+              <p class="mb-30 footer-desc">
+                is a feature-packed riding website that not only provides
+                reliable transportation services but also offers a convenient
+                platform for shopping, food delivery, and lipat bahay (moving)
+                services.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="ps-5 ms-5">
+              <h4 style="padding-left: 20px" class="ms-5 ps-5">Quick Link</h4>
+              <ul class="list-unstyled ps-5 ms-5" style="padding-left: 20px">
+                <li>
+                  <a href="index.html" class="text-decoration-none">Home</a>
+                </li>
+                <li>
+                  <a href="#about12" class="text-decoration-none">About Us</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none">Service</a>
+                </li>
+                <li>
+                  <a href="#Contactus" class="text-decoration-none">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <h4 id="Contactus">Contact Us</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#" class="text-decoration-none">+63 912 345 6789</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none">+63 912 345 6789</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none"
+                    >Arkilakana@gmail.com</a
+                  >
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none"
+                    >Arkilahelpdesk@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div>
+              <h4>Newsletter</h4>
+              <label for="Newsletter" class="form-label"
+                >Subscribe To Our Newsletter</label
+              >
+              <div class="input-wrapper">
+                <input
+                  type="email"
+                  name="email_address"
+                  placeholder="Enter email address"
+                  required
+                  class="input-field"
+                />
+
+                <button type="submit" class="btn btn-primary has-after">
+                  <ion-icon
+                    name="notifications-outline"
+                    aria-hidden="true"
+                  ></ion-icon>
+
+                  <span class="span">Subscribe</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <div class="copyright">
+            <a href="https://www.facebook.com/justenaraneta"
+              ><img
+                src="img/socia/facebook.png"
+                alt="fb"
+                width="40px"
+                height="40px"
+                style="margin-left: 8px"
+            /></a>
+            <img
+              src="img/socia/twitter_logo.png"
+              alt="twitter_logo"
+              width="40px"
+              height="40px"
+              style="margin-left: 8px"
+            />
+            <img
+              src="img/socia/instala.png"
+              alt="insta"
+              width="40px"
+              height="40px"
+              style="margin-left: 8px"
+            />
+            <img
+              src="img/socia/pintreset.png"
+              alt="pintreset"
+              width="40px"
+              height="40px"
+              style="margin-left: 8px"
+            />
+            <img
+              src="img/socia/linked.png"
+              alt="linked"
+              width="40px"
+              height="40px"
+            />
+            <img
+              src="img/socia/Youtube_logo.png"
+              alt="Youtube_logo"
+              width="40px"
+              height="40px"
+              style="margin-left: 8px"
+            />
+            <p>
+              Developed and maintained by
+              <a href="https://www.facebook.com/justenaraneta" target="_blank"
+                >Justen araneta</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="arkilafoods.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

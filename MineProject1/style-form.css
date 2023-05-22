@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#barnav {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
+}
+#navbarNav {
+  font-weight: bold;
+}
+.container2 {
+  width: 100%;
+  height: 100%;
+}
+
+#slogan1 {
+  margin-top: 100px;
+}
+.banner {
+  background-image: url(img/banner2.jpg);
+  background-size: cover;
+  background-position: center center;
+  top: 100px;
+  height: 180vh;
+  width: 100%;
+}
+.banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #2613fd;
+  opacity: 0.1;
+  z-index: -1;
+}
+@media (min-width: 1025px) {
+  .h-custom {
+    height: 100vh !important;
+  }
+}
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+}
+.card-registration .select-arrow {
+  top: 13px;
+}
+
+.bg-indigo {
+  background-color: #3734f3;
+}
+@media (min-width: 992px) {
+  .card-registration-2 .bg-indigo {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+}
+@media (max-width: 991px) {
+  .card-registration-2 .bg-indigo {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+}
