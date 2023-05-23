@@ -38,7 +38,7 @@
 }
 
 /* mobile styles */
-@media only screen and (max-width: 668px) {
+@media only screen and (max-width: 667px) {
   .containers {
     font-size: 100%;
     margin: auto;
@@ -52,7 +52,14 @@
   }
 }
 /* desktop styles */
-@media only screen and (min-width: 667px) {
+@media only screen and (min-width: 668px) {
+  #trike {
+    transform: scaleX(-1);
+    margin-right: 100px;
+    width: 450px;
+    text-align: center;
+    padding-top: 5em;
+  }
   .containers .text {
     position: relative;
     font-size: 40px;
